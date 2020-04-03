@@ -192,5 +192,6 @@ finally:
     # shut down cleanly
     MotorLeft.stop()
     MotorRight.stop()
+    redLed.stop()
     curses.nocbreak(); screen.keypad(0); curses.echo()
     curses.endwin()
