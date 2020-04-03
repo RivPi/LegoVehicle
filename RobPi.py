@@ -193,5 +193,7 @@ finally:
     MotorLeft.stop()
     MotorRight.stop()
     redLed.stop()
+    greenLed.stop()
+    whiteLed.stop()
     curses.nocbreak(); screen.keypad(0); curses.echo()
     curses.endwin()
